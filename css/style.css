@@ -1,0 +1,89 @@
+body{
+    font-family: 'Geo', sans-serif;
+}
+main{
+    background-color: #000000;
+	margin: auto;
+    width: 50%;
+}
+
+#playerScore{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#computerScore{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#rock:before{
+  display: inline-block;
+  font-family: 'FontAwesome';
+  content: "\f255";
+  font-size: 400%;
+  color: orangered;
+  padding: 12%;
+}
+
+#rock{
+    display: inline-block;
+}
+
+
+#paper:before{
+  display: inline-block;
+  font-family: 'FontAwesome';
+  content: "\f256";
+  font-size: 400%;
+  color: dodgerblue;
+  padding: 12%;
+}
+
+#paper{
+    display: inline-block;
+}
+
+#scissors:before{
+  display: inline-block;
+  font-family: 'FontAwesome';
+  content: "\f257";
+  font-size: 400%;
+  color: limegreen;
+  padding: 12%;
+}
+
+#scissors{
+    display: inline-block;
+}
+
+.move-buttons{
+    margin-left: 32%;
+    padding-bottom: 2%;
+
+}
+
+h1, h3, h4{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: yellow;
+    padding: 2%;
+}
+
+h3{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color:deeppink;
+    padding: 2%;
+}
+
+/*
+#rock:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  left: 10px;
+  content: "\f005";
+}*/
